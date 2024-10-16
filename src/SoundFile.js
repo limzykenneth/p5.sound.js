@@ -1,9 +1,8 @@
 /**
  *  p5.sound.js extends p5.js with Web Audio functionality including audio input, playback, analysis and synthesis.
- *  @module p5.sound
- *  @submodule p5.sound
- *  @for p5.sound
- *  @main p5.sound
+ *  @module Sound
+ *  @submodule SoundFile
+ *  @for p5
  */
 
 import { Context as ToneContext } from "tone/build/esm/core/context/Context.js";
