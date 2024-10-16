@@ -1,6 +1,6 @@
 /**
  *  p5.sound.js extends p5.js with Web Audio functionality including audio input, playback, analysis and synthesis.
- *  @module Sound
+ *  @module p5.sound
  *  @submodule SoundFile
  *  @for p5.sound
  */
