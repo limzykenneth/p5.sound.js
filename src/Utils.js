@@ -1,7 +1,7 @@
 /**
- *  @module Sound
- *  @submodule Sound Utilities
- *  @for p5
+ *  @module p5.sound
+ *  @submodule p5.sound
+ *  @for p5.sound
  */
 
 import { getContext as ToneGetContext, setContext as ToneSetContext } from "tone/build/esm/core/Global.js";
@@ -14,6 +14,7 @@ function clamp(value, min, max) {
 /**
  *  Get the window's audio context.
  *  @function getAudioContext
+ *  @for p5
  *  @return {AudioContext} the audio context
  */
 function getAudioContext() {
@@ -24,6 +25,7 @@ function getAudioContext() {
 /**
  *  Sets the AudioContext to a specified context to enable cross library compatibility.
  *  @function setAudioContext
+ *  @for p5
  *  @param {AudioContext} the desired AudioContext.
  */
 function setAudioContext(context) {
@@ -33,6 +35,7 @@ function setAudioContext(context) {
 /**
  *  userStartAudio() starts the AudioContext on a user gesture. It can be placed in a specific interaction function, such as mousePressed().
  *  @function userStartAudio
+ *  @for p5
  */
 function userStartAudio() {
     ToneStart();
@@ -41,6 +44,7 @@ function userStartAudio() {
 /**
  *  userStopAudio() stops the AudioContext on a user gesture.
  *  @function userStopAudio
+ *  @for p5
  */
 function userStopAudio() {
     context = ToneGetContext();
