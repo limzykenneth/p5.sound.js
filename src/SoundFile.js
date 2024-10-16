@@ -18,7 +18,7 @@ import { Player as TonePlayer } from "tone/build/esm/source/buffer/Player.js";
  *  local server</a> is recommended when loading external files.
  *
  *  @method loadSound
- *  @for p5
+ *  @for p5.sound
  *  @param  {String|Array}   path     Path to the sound file, or an array with
  *                                    paths to soundfiles in multiple formats
  *                                    i.e. ['sound.ogg', 'sound.mp3'].
